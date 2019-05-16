@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mostres</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="icon" type="imagenes/png" sizes="16x16" href="/imatges/favicon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link rel="stylesheet" href="/css/estil.css">
+</head>
+<body>
+<div id="contenidor-principal">
+  <div id="contenidor-xxss">
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-facebook-square"></i>
+  </div>
+  <h1 class="contenidor-text">Mostra de feines</h1>
+  <div class="contenidor-flex">
+      <a href="/index.html" class="boto-flex text">Inici</a>
+      <a href="/Pagines/Curriculum.html" class="boto-flex text">Currículum</a>
+      <a href="/Pagines/Mostres.html" class="boto-flex actiu text">Mostra de feines</a>
+      <a href="/Pagines/Videos.html" class="boto-flex text">Videos</a>
+      <a href="#" class="boto-flex text">Contacte</a>
+  </div>
+    <div class="contenidor-principal">
+        <img class="mySlides" src="/imatges/imatge1.png" style="width:100%">
+        <img class="mySlides" src="/imatges/imatge2.png" style="width:100%">
+        <img class="mySlides" src="/imatges/imatge3.png" style="width:100%">
+
+        <button class="boton-slider fletxaDreta-slider" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="boton-slider fletxaEsquerra-slider" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+     <div class="contenidor-text text">Aquestes son algunes mostres de les meves feines més representatives durant el Cicle Formatiu d'Animacions 3D, Jocs i Entorns Interactius. També em podeu seguir a través de Instagram i Facebook</div>
+ <div class="contenidor-footer">Ernest Arjona · Tlf: 628 42 42 22 · ernestag1999@gmail.com</div>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = x.length
+            }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+        </script>
+    </div>
+</body>
+</html>

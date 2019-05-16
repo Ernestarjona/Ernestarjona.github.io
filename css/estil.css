@@ -1,0 +1,170 @@
+/*Elements*/
+body {
+    background-color: #D4F4DD;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+}
+
+.text {
+    font-family: 'Merriweather', serif;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+.wrapper2 {
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    width: 100%;
+}
+
+/*Botons*/
+.boton-slider {
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+}
+
+.boton-slider:hover {
+    width: 30px;
+    height: 30px;
+    background-color: ghostwhite;
+}
+
+.boto-flex {
+    flex: 1 150px;
+    padding: 12px;
+    color: black;
+    background-color: ghostwhite;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin: 5px;
+    text-align: center;
+}
+
+.boto-flex:hover {
+    background-color: royalblue;
+    color: white;
+}
+
+.actiu {
+    background-color: skyblue;
+}
+
+/*Contenidors*/
+#contenidor-principal {
+    background-color: ghostwhite;
+    width: 75%;
+    margin: 10px auto 50px auto;
+    border: 1px solid aquamarine;
+    border-radius: 5px;
+}
+
+#contenidor-xxss {
+    margin: 5px;
+    padding: 5px;
+    text-align: right;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.contenidor-text {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.contenidor-imatge {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+.contenidor-flex {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid grey;
+    display: flex;
+    border-radius: 5px;
+}
+
+.contenidor-footer {
+    padding: 5px 24px;
+    border: 1px solid white;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    background-color: #a3ffee;
+}
+
+.fletxaDreta-slider {
+    position: absolute;
+    top: 60%;
+    left: 12.5%;
+    transform: translate(0%, -50%);
+}
+
+.fletxaEsquerra-slider {
+    position: absolute;
+    top: 60%;
+    right: 12.5%;
+    transform: translate(0%, -50%);
+}
+
+.mySlides {
+    display: none;
+    position: center;
+}
+
+/*Icones*/
+.fa-instagram {
+    font-size: 2em;
+    color: orange;
+    margin: 8px;
+}
+
+.fa-facebook-square {
+    font-size: 2em;
+    color: blue;
+    margin: 8px;
+}
+
+/*Imatges*/
+.imatge1 {
+    width: 100%;
+}
+
+.imatge2 {
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+    .imatge1 {
+        display: none;
+    }
+
+    .imatge2 {
+        width: 100%;
+        display: block;
+    }
+}
+
+.vdo {
+    width: 100%;
+}
