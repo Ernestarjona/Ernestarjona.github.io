@@ -44,7 +44,8 @@ h1 {
 }
 
 .boto-flex {
-    flex: 1 150px;
+    flex: 1;
+    flex-wrap: wrap;
     padding: 12px;
     color: black;
     background-color: ghostwhite;
@@ -52,6 +53,7 @@ h1 {
     border: 1px solid grey;
     margin: 5px;
     text-align: center;
+    font-size: 12px;
 }
 
 .boto-flex:hover {
@@ -97,10 +99,13 @@ h1 {
 
 .contenidor-flex {
     margin: 5px;
-    padding: 5px;
+    padding: 0px;
     border: 1px solid grey;
     display: flex;
     border-radius: 5px;
+    flex-wrap: wrap;
+    align-items: center;
+    
 }
 
 .contenidor-footer {
