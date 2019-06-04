@@ -53,7 +53,8 @@ h1 {
     border: 1px solid grey;
     margin: 5px;
     text-align: center;
-    font-size: 12px;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 .boto-flex:hover {
@@ -70,7 +71,7 @@ h1 {
     background-color: ghostwhite;
     width: 75%;
     margin: 10px auto 50px auto;
-    border: 1px solid aquamarine;
+    border: 1px solid grey;
     border-radius: 5px;
 }
 
@@ -104,8 +105,7 @@ h1 {
     display: flex;
     border-radius: 5px;
     flex-wrap: wrap;
-    align-items: center;
-    
+    align-items: center; 
 }
 
 .contenidor-footer {
@@ -114,8 +114,11 @@ h1 {
     position: fixed;
     bottom: 0%;
     left: 0%;
+    font-size: 20px;
     width: 100%;
     background-color: #a3ffee;
+    text-align: center;
+    
 }
 
 .fletxaDreta-slider {
@@ -148,6 +151,7 @@ h1 {
     font-size: 2em;
     color: blue;
     margin: 8px;
+    text-decoration: none;
 }
 
 /*Imatges*/
@@ -169,7 +173,6 @@ h1 {
         display: block;
     }
 }
-
 .vdo {
     width: 100%;
 }
