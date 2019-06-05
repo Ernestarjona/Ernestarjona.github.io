@@ -110,15 +110,14 @@ h1 {
 
 .contenidor-footer {
     padding: 5px 24px;
-    border: 1px solid white;
+    border: 1px solid black;
     position: fixed;
     bottom: 0%;
     left: 0%;
     font-size: 20px;
     width: 100%;
-    background-color: #a3ffee;
+    background-color: #5FBFF9;
     text-align: center;
-    
 }
 
 .fletxaDreta-slider {
